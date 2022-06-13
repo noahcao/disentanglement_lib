@@ -1,11 +1,21 @@
-# disentanglement_lib
+# Mutual information based Entroy Disentanglement
+
+Official implementation of [Mutual information based Entroy Disentanglement (MED)](https://arxiv.org/abs/2206.04756) to evaluate model representation disentanglement. This implementation is based on [DisLib](https://github.com/google-research/disentanglement_lib). 
+
+
+The content below is the instruction of DisLib for setup and usage, which is also followed by our implementation.
+
+
+# Disentanglement_lib
+
+
 ![Sample visualization](https://github.com/google-research/disentanglement_lib/blob/master/sample.gif?raw=true)
 
 **disentanglement_lib** is an open-source library for research on learning disentangled representation.
 It supports a variety of different models, metrics and data sets:
 
 * *Models*: BetaVAE, FactorVAE, BetaTCVAE, DIP-VAE
-* *Metrics*: BetaVAE score, FactorVAE score, Mutual Information Gap, SAP score, DCI, MCE, IRS, UDR
+* *Metrics*: BetaVAE score, FactorVAE score, Mutual Information Gap, SAP score, DCI, MCE, IRS, UDR, **MED**
 * *Data sets*: dSprites, Color/Noisy/Scream-dSprites, SmallNORB, Cars3D, and Shapes3D
 * It also includes 10'800 pretrained disentanglement models (see below for details).
 

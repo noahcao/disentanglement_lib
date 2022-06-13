@@ -1,7 +1,6 @@
-# This is the list of DisentanglementLib authors for copyright purposes.
-#
-# This does not necessarily list everyone who has contributed code, since in
-# some cases, their employer may be the copyright holder.  To see the full list
-# of contributors, see the revision history in source control.
+# This repo is based on DisentanglementLib by Google LLC
+# The raw implementation is at https://github.com/google-research/disentanglement_lib
+# Besids, the implementation of MED is by:
 
-Google LLC
+Jinkun Cao, 
+Ruiqian Nai
