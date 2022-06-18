@@ -1,12 +1,6 @@
-# Mutual information based Entroy Disentanglement
-
-Official implementation of [Mutual information based Entroy Disentanglement (MED)](https://arxiv.org/abs/2206.04756) to evaluate model representation disentanglement. This implementation is based on [DisLib](https://github.com/google-research/disentanglement_lib). 
-
-
-The content below is the instruction of DisLib for setup and usage, which is also followed by our implementation.
-
-
 # Disentanglement_lib
+
+* 2022.6: Supports MED metric proposed in [An Empirical Study on Disentanglement of Negative-free Contrastive Learning](https://arxiv.org/abs/2206.04756).
 
 
 ![Sample visualization](https://github.com/google-research/disentanglement_lib/blob/master/sample.gif?raw=true)
@@ -338,6 +332,17 @@ If you use **disentanglement_lib**, please consider citing:
   booktitle={International Conference on Machine Learning},
   pages={4114--4124},
   year={2019}
+}
+```
+
+If you use the proposed MED metric, please consider citing:
+
+```
+@article{cao2022empirical,
+  title={An Empirical Study on Disentanglement of Negative-free Contrastive Learning},
+  author={Cao, Jinkun and Nai, Ruiqian and Yang, Qing and Huang, Jialei and Gao, Yang},
+  journal={arXiv preprint arXiv:2206.04756},
+  year={2022}
 }
 ```
 
