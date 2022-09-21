@@ -1,5 +1,6 @@
 # Disentanglement_lib
 
+* 2022.9: This is accepted to NeurIPS 2022. A revised version of paper is coming soon.
 * 2022.6: Supports MED metric proposed in [An Empirical Study on Disentanglement of Negative-free Contrastive Learning](https://arxiv.org/abs/2206.04756).
 
 
